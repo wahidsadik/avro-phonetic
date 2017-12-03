@@ -1,13 +1,22 @@
 {
   "name": "avro-phonetic",
   "version": "1.1.4",
-  "description": "A JavaScript implementation of Avro Phonetic",
+  "description": "A Javascript implementation of Avro Phonetic",
+  "main": "dist/avro-v1.1.4.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dipu-bd/jsAvroPhonetic.git"
   },
+  "author": "",
   "license": "MPL-1.1",
+  "bugs": {
+    "url": "https://github.com/dipu-bd/jsAvroPhonetic/issues"
+  },
   "homepage": "https://github.com/dipu-bd/jsAvroPhonetic#readme"
 }
