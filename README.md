@@ -1,6 +1,17 @@
-# avro-phonetic
+# nodejs-avro-phonetic
 
-avro-phonetic is port [jsAvroPhonetic](https://github.com/dipu-bd/jsAvroPhonetic) for nodejs, minus dependency on jQuery and few bugs.
+nodejs-avro-phonetic is port [jsAvroPhonetic](https://github.com/dipu-bd/jsAvroPhonetic) for nodejs, minus dependency on jQuery and few bugs.
+
+# How to use
+
+To install the package: `$ npm install nodejs-avro-phonetic`.
+
+Example usage:
+```javascript
+const avroPhonetic = require('avro-phonetic');
+
+console.log(avroPhonetic.parse('ami banglay gan gai')); // আমি বাংলায় গান গাই
+```
 
 # License
 
@@ -8,5 +19,3 @@ avro-phonetic is port [jsAvroPhonetic](https://github.com/dipu-bd/jsAvroPhonetic
 
 # TODO:
 - [ ] Add travis integration
-- [ ] Post to nodejs
-- [ ] Add usages instructions

@@ -1,10 +1,10 @@
 {
-  "name": "avro-phonetic",
+  "name": "nodejs-avro-phonetic",
   "version": "1.0.0",
   "description": "A nodejs implementation of Avro Phonetic",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wahidsadik/avro-phonetic"
+    "url": "git+https://github.com/wahidsadik/nodejs-avro-phonetic"
   },
   "author": "wahid.sadik@gmail.com",
   "license": "MPL-1.1",
