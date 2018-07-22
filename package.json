@@ -1,6 +1,6 @@
 {
   "name": "nodejs-avro-phonetic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A nodejs implementation of Avro Phonetic",
   "repository": {
     "type": "git",
