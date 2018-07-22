@@ -19,16 +19,13 @@
     Copyright (C) OmicronLab (http://www.omicronlab.com). All Rights Reserved.
 
 
-    Contributor(s): ______________________________________.
+    Contributor(s): Wahid Sadik <wahid.sadik@gmail.com>.
 
     *****************************************************************************
     =============================================================================
 */
 
-var OmicronLab = {};
-OmicronLab.Avro = {};
-
-OmicronLab.Avro.Phonetic = {
+const avroPhonetic = {
     parse: function(input) {
         var fixed = this.fixString(input);
         var output = "";
@@ -1981,3 +1978,5 @@ OmicronLab.Avro.Phonetic = {
         "casesensitive":"oiudgjnrstyz"
     }
 };
+
+module.exports = avroPhonetic;

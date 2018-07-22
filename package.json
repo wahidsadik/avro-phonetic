@@ -1,22 +1,19 @@
 {
   "name": "avro-phonetic",
-  "version": "1.1.5",
-  "description": "A Javascript implementation of Avro Phonetic",
-  "main": "dist/avro-v1.1.4.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "1.0.0",
+  "description": "A nodejs implementation of Avro Phonetic",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dipu-bd/jsAvroPhonetic.git"
+    "url": "git+https://github.com/wahidsadik/avro-phonetic"
   },
-  "author": "",
+  "author": "wahid.sadik@gmail.com",
   "license": "MPL-1.1",
-  "bugs": {
-    "url": "https://github.com/dipu-bd/jsAvroPhonetic/issues"
+  "main": "src/avro-phonetic.js",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
   },
-  "homepage": "https://github.com/dipu-bd/jsAvroPhonetic#readme"
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  }
 }
