@@ -8,7 +8,7 @@ To install the package: `$ npm install nodejs-avro-phonetic`.
 
 Example usage:
 ```javascript
-const avroPhonetic = require('avro-phonetic');
+const avroPhonetic = require('nodejs-avro-phonetic');
 
 console.log(avroPhonetic.parse('ami banglay gan gai')); // আমি বাংলায় গান গাই
 ```
