@@ -1,6 +1,6 @@
 # nodejs-avro-phonetic
 
-nodejs-avro-phonetic is port [jsAvroPhonetic](https://github.com/dipu-bd/jsAvroPhonetic) for nodejs, minus dependency on jQuery and few bugs.
+nodejs-avro-phonetic is port of [jsAvroPhonetic](https://github.com/dipu-bd/jsAvroPhonetic) for nodejs, minus dependency on jQuery and few bugs.
 
 # How to use
 
